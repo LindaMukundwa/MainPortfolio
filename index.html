@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/faviconnLogo.png" type="image/x-icon">
+    <title>Linda Mukundwa - Aspiring Software Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">LM</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div id="particles-js"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="typing-text">Hi, I'm Linda Mukundwa</span>
+                </h1>
+                <h2 class="hero-subtitle">Computer Science Student & Aspring Software Engineer</h2>
+                <p class="hero-description">
+                    Passionate about creating innovative solutions through code. Currently pursuing my Bachelor's in
+                    Computer Science at Marist
+                    University with experience in full-stack development, machine learning, and mobile app development.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#experience" class="btn btn-secondary">View My Work</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <img src="images/robot.JPG" alt="myself">
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        Aspiring software engineer with a keen passion in all things computing
+                        from cybersecurity to database management and how the world is interconnected
+                        through all the processes we use today. I am highly motivated, driven, responsible
+                        and love to learn. I hope to create meaningful and impactful work that will
+                        shape the future and help people from all types of backgrounds break into tech
+                        as well as improve their livelihood.
+                    </p>
+                </div>
+                <div class="about-skills-preview">
+                    <h3>Core Competencies</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Algorithms</span>
+                        <span class="skill-tag">Web Development</span>
+                        <span class="skill-tag">iOS Development</span>
+                        <span class="skill-tag">Team Leadership</span>
+                        <span class="skill-tag">Machine Learning</span>
+                        <span class="skill-tag">Cybersecurity</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item" data-date="June 2025 - Present">
+                    <div class="timeline-content">
+                        <h3>Software Engineering Intern / Co-op</h3>
+                        <h4>IBM Joint Study - Poughkeepsie, New York</h4>
+                        <ul>
+                            <li>Refactored 80% of core screens, cutting code complexity by 40% by modularizing Angular
+                                components.</li>
+                            <li>Redesigned the entire UI for mobile and desktop, improving user engagement by
+                                prototyping in Figma and
+                                implementing responsive design principles.</li>
+                            <li>Boosted user uniqueness accuracy in the graph database by refactoring API endpoints and
+                                deploying a Gradient
+                                Boosted Model + Transformer trained on 30,000 research samples.</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Angular</span>
+                            <span class="tech-tag">Neo4j</span>
+                            <span class="tech-tag">Team Leadership</span>
+                            <span class="tech-tag">Strategic Planning</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-date="Jan 2024 - May 2025">
+                    <div class="timeline-content">
+                        <h3>Student Network Technician</h3>
+                        <h4>Networking Office of Marist University - Poughkeepsie, New York</h4>
+                        <ul>
+                            <li>Installed, configured, and tested Cisco Access Points on 7 floors of a residential
+                                building for over 80 rooms.</li>
+                            <li>Completed network device registration on school network for personal devices across
+                                campus for over 5,000 people
+                                and troubleshooted any problems with ports or internet connectivity.</li>
+                            <li>Performed connection speed tests, port activations on switches and patch panels for
+                                subnets across campus
+                                network.</li>
+                            <li>Utilized CLI, Cisco services, Icinga and remote connections to monitor campus
+                                connectivity to ensure 99% uptime.</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Cisco</span>
+                            <span class="tech-tag">Network Security</span>
+                            <span class="tech-tag">Hardware</span>
+                            <span class="tech-tag">IT</span>
+                            <span class="tech-tag">Team Leadership</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-date="Jun 2024 - Aug 2024">
+                    <div class="timeline-content">
+                        <h3>Undergraduate Teaching Assistant</h3>
+                        <h4>Marist x NESCD SS ECHS Program - Poughkeepsie, New York</h4>
+                        <ul>
+                            <li>Guided 24 students through topics such as server-side programming, open-source
+                                frameworks, and MVC pattern.</li>
+                            <li>Leaded labs during course surrounding Git, Node, and full stack web development and
+                                created REST APIs to
+                                perform CRUD operations.</li>
+                            <li>Evaluated student work for completion/ understanding of content and working 1 on 1 for
+                                better comprehension.</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3>Languages</h3>
+                    <div class="skill-item">
+                        <span class="skill-name">Python</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-skill="95"></div>
+                        </div>
+                        <span class="skill-percentage">95%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">TypeScript</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-skill="95"></div>
+                        </div>
+                        <span class="skill-percentage">95%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">SQL</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-skill="90"></div>
+                        </div>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Java</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-skill="80"></div>
+                        </div>
+                        <span class="skill-percentage">80%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Swift</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-skill="70"></div>
+                        </div>
+                        <span class="skill-percentage">70%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">JavaScript</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-skill="70"></div>
+                        </div>
+                        <span class="skill-percentage">70%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">HTML</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-skill="70"></div>
+                        </div>
+                        <span class="skill-percentage">70%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">CSS</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-skill="80"></div>
+                        </div>
+                        <span class="skill-percentage">80%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Bash</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-skill="85"></div>
+                        </div>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3>Libraries</h3>
+                    <div class="skill-item">
+                        <span class="skill-name">TensorFlow</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-skill="50"></div>
+                        </div>
+                        <span class="skill-percentage">50%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">PyTorch</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-skill="60"></div>
+                        </div>
+                        <span class="skill-percentage">60%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">OpenCV</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-skill="50"></div>
+                        </div>
+                        <span class="skill-percentage">50%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Matplotlib</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-skill="55"></div>
+                        </div>
+                        <span class="skill-percentage">55%</span>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3>Developer Tools</h3>
+                    <div class="skill-item">
+                        <span class="skill-name">Latex</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-skill="90"></div>
+                        </div>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Git</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-skill="85"></div>
+                        </div>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">VSCode</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-skill="80"></div>
+                        </div>
+                        <span class="skill-percentage">80%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">XCode</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-skill="75"></div>
+                        </div>
+                        <span class="skill-percentage">75%</span>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3>Frameworks</h3>
+                    <div class="skill-item">
+                        <span class="skill-name">React</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-skill="70"></div>
+                        </div>
+                        <span class="skill-percentage">70%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Node.js</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-skill="85"></div>
+                        </div>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Angular</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-skill="80"></div>
+                        </div>
+                        <span class="skill-percentage">80%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Tailwind CSS</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-skill="75"></div>
+                        </div>
+                        <span class="skill-percentage">75%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Vue.js</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-skill="75"></div>
+                        </div>
+                        <span class="skill-percentage">75%</span>
+                    </div>
+                </div>
+            </div>
+
+         <!--    <div class="skills-visualization">
+                <h3>Skill Distribution</h3>
+                <canvas id="skillsChart"></canvas>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/mela2.png" alt="Project 1">
+                    </div>
+                    <div class="project-content">
+                        <h3><a href="https://github.com/LindaMukundwa/MelanomaDetectionModel" class="project-content-title">Melanoma ABCD AI Diagnosis Model</a></h3>
+                        <p>Developed a model to predict likelihood of melanoma with 96.4 AUC Score using CNNs and ABCD markers for early detection.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">CNN</span>
+                            <span class="tech-tag">Tensor Flow</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/ksks.png" alt="Project 2">
+                    </div>
+                    <div class="project-content">
+                        <h3><a href="https://github.com/LindaMukundwa/ThesisAndDishes" class="project-content-title">Thesis and Dishes</a></h3>
+                        <p>Developed a meal-prepping mobile app for college students to filter through discovery, time, expertise and others using the OpenFoodFacts and Edamam API(10K+ recipes)</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Swift</span>
+                            <span class="tech-tag">Figma</span>
+                            <span class="tech-tag">API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/compi1.png" alt="Project 3">
+                    </div>
+                    <div class="project-content">
+                        <h3><a href="https://github.com/LindaMukundwa/CompiLinda" class="project-content-title">CompiLinda</a></h3>
+                        <p>Implemented a full compiler with lexical analysis, parsing, semantic analysis and code generation compliant with the 6502a instruction set</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">Node.js</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>Bachelor of Science (BS)</h3>
+                        <h4>Computer Science</h4>
+                        <p class="education-school">Marist University</p>
+                        <p class="education-location">Poughkeepsie, New York</p>
+                        <p class="education-year">2022 - 2026</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>I'm always interested in discussing new opportunities, innovative projects, and potential
+                        collaborations in software and any other opportunities.</p>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:lindamukundwa1409@gmail.com">lindamukundwa1409@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <a href="mailto:lindamukundwa1409@gmail.com">(707) 803-(email for the rest)</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Poughkeepsie, New York</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="6"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Linda Mukundwa. Built with passion for software and tech.</p>
+                <div class="social-links">
+                    <a href="mailto:lindamukundwa1409@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
